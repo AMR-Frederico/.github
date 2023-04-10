@@ -1,4 +1,4 @@
-# 🎩 *Frederico - código sensores*
+# 🎩 *Frederico*
 
 ## 🏎️ Descrição da categoria
 O Frederico é um robô da categoria **_Trekking_** (ou **_Robomagellan_**, em inglês), que deve ser capaz de se localizar e locomover em um espaço determinado. 
