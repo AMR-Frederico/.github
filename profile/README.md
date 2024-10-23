@@ -29,7 +29,7 @@ O Frederico é um robô da categoria **_Trekking_** (ou **_Robomagellan_**, em i
 ** **
 ## O código: 
 Para a versão atual do projeto, temos um ESP32 dedicado à leitura e processamento de sensores e também responsável pela sinalização do robô, outro para a leitura dos encoders e controle do driver de motor, e por fim, outro dedicado à conexão bluetooth com o controle de PS4
-A mágica em si acontece no Raspberry Pi, em que rodamos o ROS 1 - atualmente utilizamos a versão noetic - que concentra todas as camadas mais alto nível do projeto, é onde fazemos a odometria, controle de posição, segurança e controle de objetivos. 
+A mágica em si acontece no Raspberry Pi, em que rodamos o ROS2 - atualmente utilizamos a versão humble - que concentra todas as camadas mais alto nível do projeto, é onde fazemos a odometria, controle de posição, segurança e controle de objetivos. 
 
 Nesta organização você encontrará todos os pacores/códigos escritos para o Fred. 
 
@@ -37,7 +37,7 @@ Nesta organização você encontrará todos os pacores/códigos escritos para o 
 Em questão de hardware, o Fred tem: 
 
 ### Potência 
-- 4x Motores 12V 1600 rpm 
+- 4x Motores 12V 400 rpm 
 - 2x driver monster motor VNH2SP30 dual channel 
 
 #### Digital
@@ -50,8 +50,8 @@ Em questão de hardware, o Fred tem:
 - 1x Regulador de tensão XL4015
 
 ### Baterias 
-- 1x Bateria LiPo 5000mAh 20c 
-- 1x Bateria LiFe 1100mAh 10c 
+- 1x Bateria LiPo 5500mAh 20c 
+- 1x Bateria LiPo 5500mAh 10c 
 
 *
 ## 🌐 Links úteis
